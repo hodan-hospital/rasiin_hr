@@ -32,7 +32,7 @@ def execute(filters=None):
 			ss.employee_name,
 			doj_map.get(ss.employee),
 			ss.branch,
-			ss.department,
+			frappe.db.get_value("Employee" , ss.employee , "department"),
 			ss.designation,
 			ss.company,
 			ss.start_date,
