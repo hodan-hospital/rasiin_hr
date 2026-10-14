@@ -300,6 +300,29 @@
    "property_type": "Check",
    "row_name": null,
    "value": "1"
+  },
+  {
+   "name": "Employee Advance-naming_series-options",
+   "creation": "2025-12-17 18:54:21.056098",
+   "modified": "2025-12-17 18:54:21.056098",
+   "modified_by": "Administrator",
+   "owner": null,
+   "docstatus": 0,
+   "idx": 0,
+   "is_system_generated": 0,
+   "doctype_or_field": "DocField",
+   "doc_type": "Employee Advance",
+   "field_name": "naming_series",
+   "row_name": null,
+   "module": null,
+   "property": "options",
+   "property_type": "Text",
+   "value": "HR-EAD-.YYYY.-",
+   "default_value": null,
+   "_user_tags": null,
+   "_comments": null,
+   "_assign": null,
+   "_liked_by": null
   }
  ],
  "sync_on_migrate": 1
