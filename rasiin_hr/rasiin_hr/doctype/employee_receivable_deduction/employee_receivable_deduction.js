@@ -22,10 +22,11 @@ function update_employee_details(frm) {
                     child.salary = emp.salary;
                     child.deduction = emp.deduction;
                     child.amount = emp.amount;
-                    child.payment = 0;
-                    child.balance = 0;
+                    child.payment = flt(emp.amount);
+                    child.balance = flt(emp.amount) - child.payment;
 
-                    total_amount += emp.amount;
+                    total_amount += flt(emp.amount);
+                    total_payment += child.payment;
                     
                 });
 
