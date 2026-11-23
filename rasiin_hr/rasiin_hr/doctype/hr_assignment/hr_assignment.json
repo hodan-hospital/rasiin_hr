@@ -1,0 +1,121 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": " EMP-.##### ",
+ "creation": "2026-11-10 11:44:23.981513",
+ "default_view": "List",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "allocation_name",
+  "company",
+  "fiscal_year",
+  "column_break_qr8pk",
+  "allocation_type",
+  "from_date",
+  "to_date",
+  "only_non_allocated_employee",
+  "employee_application_section",
+  "employee_application",
+  "hr",
+  "amended_from"
+ ],
+ "fields": [
+  {
+   "fieldname": "allocation_name",
+   "fieldtype": "Data",
+   "label": "Allocation Name "
+  },
+  {
+   "fieldname": "company",
+   "fieldtype": "Select",
+   "label": "Company",
+   "options": "\nHodan Hospital"
+  },
+  {
+   "fieldname": "fiscal_year",
+   "fieldtype": "Select",
+   "label": "Fiscal Year",
+   "options": "\n2027\n2026\n2025\n2024"
+  },
+  {
+   "fieldname": "column_break_qr8pk",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "allocation_type",
+   "fieldtype": "Select",
+   "label": "Allocation Type ",
+   "options": "Bulk allocation"
+  },
+  {
+   "fieldname": "from_date",
+   "fieldtype": "Date",
+   "label": "From Date "
+  },
+  {
+   "fieldname": "to_date",
+   "fieldtype": "Date",
+   "label": "To Date"
+  },
+  {
+   "default": "0",
+   "fieldname": "only_non_allocated_employee",
+   "fieldtype": "Check",
+   "label": "Only Non Allocated Employee"
+  },
+  {
+   "fieldname": "employee_application_section",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "employee_application",
+   "fieldtype": "Heading",
+   "label": "Employee Application"
+  },
+  {
+   "fieldname": "hr",
+   "fieldtype": "Table",
+   "options": "Hr assigment TABLE"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Hr assignment",
+   "print_hide": 1,
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2026-11-23 14:28:19.469912",
+ "modified_by": "Administrator",
+ "module": "Rasiin Hr",
+ "name": "Hr assignment",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "amend": 1,
+   "cancel": 1,
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "submit": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

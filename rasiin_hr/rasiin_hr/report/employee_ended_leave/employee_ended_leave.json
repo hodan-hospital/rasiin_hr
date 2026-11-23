@@ -1,0 +1,40 @@
+{
+ "add_total_row": 0,
+ "columns": [],
+ "creation": "2026-11-10 12:15:47.511072",
+ "disable_prepared_report": 0,
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "idx": 0,
+ "is_standard": "Yes",
+ "json": "{}",
+ "letter_head": "logo",
+ "modified": "2026-11-10 12:21:03.069982",
+ "modified_by": "Administrator",
+ "module": "Rasiin Hr",
+ "name": "Employee Ended Leave",
+ "owner": "Administrator",
+ "prepared_report": 0,
+ "ref_doctype": "Leave Application",
+ "report_name": "Employee Ended Leave",
+ "report_type": "Script Report",
+ "roles": [
+  {
+   "role": "HR User"
+  },
+  {
+   "role": "HR Manager"
+  },
+  {
+   "role": "Employee"
+  },
+  {
+   "role": "Leave Approver"
+  },
+  {
+   "role": "Employee Self Service"
+  }
+ ]
+}

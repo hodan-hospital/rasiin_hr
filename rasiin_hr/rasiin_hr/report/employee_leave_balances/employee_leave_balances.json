@@ -1,0 +1,22 @@
+{
+ "add_total_row": 1,
+ "columns": [],
+ "disabled": 0,
+ "docstatus": 0,
+ "doctype": "Report",
+ "filters": [],
+ "is_standard": "Yes",
+ "json": "{}",
+ "letter_head": "",
+ "module": "Rasiin Hr",
+ "name": "Employee Leave Balances",
+ "prepared_report": 0,
+ "ref_doctype": "Leave Allocation",
+ "report_name": "Employee Leave Balances",
+ "report_type": "Script Report",
+ "roles": [
+  {"role": "HR Manager"},
+  {"role": "HR User"},
+  {"role": "System Manager"}
+ ]
+}

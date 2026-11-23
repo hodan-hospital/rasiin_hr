@@ -1,0 +1,28 @@
+{
+ "chart_name": "Monthly Salary Comparison",
+ "chart_type": "Custom",
+ "creation": "2026-11-12 00:00:00.000000",
+ "custom_options": "{\"colors\":[\"#1681f8\",\"#14c997\"],\"axisOptions\":{\"xIsSeries\":true}}",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart",
+ "filters_json": "{}",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "modified": "2026-11-12 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Rasiin Hr",
+ "name": "Monthly Salary Comparison",
+ "owner": "Administrator",
+ "roles": [
+  {
+   "role": "HR Manager"
+  },
+  {
+   "role": "HR User"
+  }
+ ],
+ "source": "Employee Hiring and Turnover Analysis",
+ "timeseries": 1,
+ "type": "Bar"
+}

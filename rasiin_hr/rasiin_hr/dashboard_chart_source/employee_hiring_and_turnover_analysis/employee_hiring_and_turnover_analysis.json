@@ -1,0 +1,13 @@
+{
+ "creation": "2026-11-12 00:00:00.000000",
+ "docstatus": 0,
+ "doctype": "Dashboard Chart Source",
+ "idx": 0,
+ "modified": "2026-11-12 00:00:00.000000",
+ "modified_by": "Administrator",
+ "module": "Rasiin Hr",
+ "name": "Employee Hiring and Turnover Analysis",
+ "owner": "Administrator",
+ "source_name": "Employee Hiring and Turnover Analysis",
+ "timeseries": 1
+}

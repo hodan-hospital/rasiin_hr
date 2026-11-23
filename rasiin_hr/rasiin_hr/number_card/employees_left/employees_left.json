@@ -1,0 +1,22 @@
+{
+ "color": "#E5484D",
+ "creation": "2026-11-12 11:53:48.474578",
+ "docstatus": 0,
+ "doctype": "Number Card",
+ "document_type": "Employee",
+ "filters_json": "[[\"Employee\", \"status\", \"=\", \"Left\", false]]",
+ "function": "Count",
+ "idx": 0,
+ "is_public": 1,
+ "is_standard": 1,
+ "label": "Employees Left",
+ "modified": "2026-11-12 11:53:48.474578",
+ "modified_by": "Administrator",
+ "module": "Rasiin Hr",
+ "name": "Employees Left",
+ "owner": "Administrator",
+ "report_function": "Sum",
+ "show_percentage_stats": 0,
+ "stats_time_interval": "Daily",
+ "type": "Document Type"
+}

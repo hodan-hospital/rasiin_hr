@@ -1,0 +1,32 @@
+{
+ "cards": [
+  {
+   "card": "Active Employees"
+  },
+  {
+   "card": "Employees Left"
+  }
+ ],
+ "charts": [
+  {
+   "chart": "Monthly Hiring vs Employee Turnover",
+   "width": "Half"
+  },
+  {
+   "chart": "Monthly Salary Comparison",
+   "width": "Half"
+  }
+ ],
+ "creation": "2026-11-12 11:04:30.148809",
+ "dashboard_name": "Employee Hiring and Turnover Analysis",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2026-11-12 11:53:48.501811",
+ "modified_by": "Administrator",
+ "module": "Rasiin Hr",
+ "name": "Employee Hiring and Turnover Analysis",
+ "owner": "Administrator"
+}
